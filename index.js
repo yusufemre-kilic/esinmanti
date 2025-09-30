@@ -64,9 +64,8 @@ let prevCard = (e) => {
 next.addEventListener('click', nextCard);
 prev.addEventListener('click', prevCard);
 
-let activeChefItems = [...document.getElementsByClassName('slider-item')]
-	.length;
-let chefItemWidth = document.querySelector('.slider-item').offsetWidth;
+let activeChefItems = [...document.getElementsByClassName('slider-item')].length;
+let chefItemWidth = sliderItem.offsetWidth;
 const nextItem = document.querySelector('.chef-main-slider .next');
 const prevItem = document.querySelector('.chef-main-slider .prev');
 const movedItemChef = document.querySelector('.moved-chef-slider');
